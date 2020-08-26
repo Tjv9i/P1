@@ -19,9 +19,8 @@ public class Sample {
     days=(h+hours)/24;
     d=(h+hours)%24;
     years=(d+days)/365;
-    System.out.println(years);
     y=(d+days)%365;
-    System.out.println("Ther number of years is:"+years+"Days is:"+y);
+    System.out.println("Ther number of years is:"+years+" Days is:"+y);
     }
     
 }
